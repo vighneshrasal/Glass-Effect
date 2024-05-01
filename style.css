@@ -1,0 +1,46 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #008cff8e);
+    display: flex; align-items: center; justify-content: center;
+}
+
+.glass{
+    min-height: 80vh;
+    width: 60%;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 1.5rem;
+    z-index: 3;
+    backdrop-filter: blur(0.5rem);
+    border: 1px solid white;
+    display: flex;
+}
+
+.circle1, .circle2{
+    background: white;
+    border-radius: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 15rem; width: 15rem;
+    z-index: 2;
+}
+
+.circle1{
+    position: absolute;
+    top: 2rem; left: 10rem;
+}
+.circle2{
+    position: absolute;
+    bottom: 10rem; right: 15rem;
+}
+
+.dashboard{
+    flex: 1;
+}
+
+.games{
+    flex: 1;
+}
