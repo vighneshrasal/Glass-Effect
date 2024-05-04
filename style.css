@@ -114,7 +114,7 @@ main{
 }
 
 .status{
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .status input{
@@ -127,4 +127,55 @@ main{
 
 .card img{
     width: 7rem;
+}
+
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 15px rgba(122, 122, 122, 0.4);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info{
+    flex: 1;
+    margin-left: 3rem;
+}
+
+.progressAss{
+    background: linear-gradient(to right top, #65dfc9, #008cff8e);
+    height: 1rem;
+    border-radius: 1rem;
+    width: 60%;
+}
+
+.progressSpi{
+    background: linear-gradient(to right top, #65dfc9, #008cff8e);
+    height: 1rem;
+    border-radius: 1rem;
+    width: 32%;
+}
+
+.progressSac{
+    background: linear-gradient(to right top, #65dfc9, #008cff8e);
+    height: 1rem;
+    border-radius: 1rem;
+    width: 54%;
+}
+
+.percentage{
+    background: linear-gradient(to right top, #65dfc9, #008cff8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
